@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__), 'task_manager'))
+
 from task_utils import add_task, mark_task_as_complete, view_pending_tasks, calculate_progress
 
 def main():
